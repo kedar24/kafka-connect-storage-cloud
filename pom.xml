@@ -62,7 +62,7 @@
         <confluent.maven.repo>http://packages.confluent.io/maven/</confluent.maven.repo>
         <licenses.version>6.0.0-SNAPSHOT</licenses.version>
         <checkstyle.suppressions.location>checkstyle/suppressions.xml</checkstyle.suppressions.location>
-        <hadoop.version>2.7.7</hadoop.version>
+        <hadoop.version>3.0.0</hadoop.version>
     </properties>
 
     <repositories>
@@ -140,7 +140,7 @@
         <dependency>
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
-            <version>1.9.4</version>
+            <version>1.11.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
